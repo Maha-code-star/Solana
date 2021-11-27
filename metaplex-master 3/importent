@@ -1,0 +1,18 @@
+Wrote new keypair to /Users/mahasaad/.config/solana/devnet-test.json
+================================================================================
+pubkey: g6evwzVkXJpjiW3vcMRESEpjabNcpf5fpErZXS6NYjf
+================================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+puppy sentence gadget pond title palm bicycle grant neither opera slide mountain
+================================================================================
+solana config set --keypair ~/.config/solana/devnet-test.json
+
+candy machine with publickey: 8QDBLAyiYGD4UXMJ9uAXDhMDCEXFJr4vHx8rFwBPgL3E
+
+{"program":{"uuid":"8QDBLA","config":"8QDBLAyiYGD4UXMJ9uAXDhMDCEXFJr4vHx8rFwBPgL3E"},"items":{"0 copy":{"link":"https://arweave.net/rSspk7g6xSjylM8SqxQ5Sji_pB8-MTEfkevsROB867c","imageLink":"https://arweave.net/JcTznKREYu-LXNNe80sC1OabpJOvKAvQOpAWvh5KWEE?ext=png","name":"3xm #0","onChain":true},"1 copy":{"link":"https://arweave.net/jP0SWKh95Sx06PPV65TDBIHlnJAcky0YiZ933d5Tkt4","imageLink":"https://arweave.net/j-Kwxd9zUAq3WB0G_ev7bkdgJGSAgJpgihlgErQD4Jc?ext=png","name":"3xm #1","onChain":true}},"env":"devnet","cacheName":"temp","authority":"g6evwzVkXJpjiW3vcMRESEpjabNcpf5fpErZXS6NYjf"}
+
+
+ts-node js/packages/cli/src/candy-machine-cli.ts update_candy_machine --keypair ~/.config/solana/devnet-test.json --date '19 Nov 2021 00:00:00 PST' 
+
+create_candy_machine finished. candy machine pubkey: 5yqh6NHzVXXZpQP5oaLBoBE2M14txbfCDYdGpuyYHuqB
+updated startDate timestamp: 1637308800 
